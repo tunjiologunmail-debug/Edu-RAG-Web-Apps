@@ -1,11 +1,16 @@
 # 🎓 EduRAG — University Policy Q&A Assistant
 
+![EduRAG Hero](edurag.png)
+
 A Retrieval-Augmented Generation (RAG) system that allows students and staff
 to query university policy documents in natural language, with cited sources.
 
 Built as a portfolio project demonstrating applied AI skills for higher education.
 
-## 🏗️ Architecture
+## � Live Demo
+Try the app here: https://edu-rag-web-apps-k85grzkutudyubt9o7y5cz.streamlit.app/
+
+## �🏗️ Architecture
 ```
 PDF Documents → Chunking → Embeddings → FAISS Index
                                               ↓
